@@ -1,0 +1,18 @@
+{
+  "ttm": 9,
+  "p_source": "S8_3 P_density/SS25 CSV",
+  "regimes": {
+    "OA": {
+      "source": "EP_csv_Q_plus_SS25_P",
+      "p_csv": "/Users/irtg/Documents/\u540c\u6b65\u7a7a\u95f4/Pricing_Kernel/EPK/deribit_eth/results/ttm_09/P_density/SS25/P_SS25_OA_ttm9day.csv"
+    },
+    "HV": {
+      "source": "EP_csv_Q_plus_SS25_P",
+      "p_csv": "/Users/irtg/Documents/\u540c\u6b65\u7a7a\u95f4/Pricing_Kernel/EPK/deribit_eth/results/ttm_09/P_density/SS25/P_SS25_HV_ttm9day.csv"
+    },
+    "LV": {
+      "source": "EP_csv_Q_plus_SS25_P",
+      "p_csv": "/Users/irtg/Documents/\u540c\u6b65\u7a7a\u95f4/Pricing_Kernel/EPK/deribit_eth/results/ttm_09/P_density/SS25/P_SS25_LV_ttm9day.csv"
+    }
+  }
+}

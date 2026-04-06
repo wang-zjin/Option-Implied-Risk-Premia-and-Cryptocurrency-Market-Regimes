@@ -1,0 +1,16 @@
+{
+  "ttm": 27,
+  "p_col": "P_NB12",
+  "pk_plot_xmin": -0.85,
+  "regimes": {
+    "OA": {
+      "source": "EP_csv_Q_plus_xlsx_P"
+    },
+    "HV": {
+      "source": "EP_csv_Q_plus_xlsx_P"
+    },
+    "LV": {
+      "source": "EP_csv_Q_plus_xlsx_P"
+    }
+  }
+}

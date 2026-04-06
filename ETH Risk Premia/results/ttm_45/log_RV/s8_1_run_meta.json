@@ -1,0 +1,12 @@
+{
+  "ttm": 45,
+  "use_d15": false,
+  "use_cluster_dates": true,
+  "cluster_csv": "/Users/irtg/Documents/\u540c\u6b65\u7a7a\u95f4/Pricing_Kernel/EPK/deribit_eth/results/Clustering/moneyness_step_0d01/multivariate_clustering_9_27_45/common_dates_cluster.csv",
+  "q_matrix": "/Users/irtg/Documents/\u540c\u6b65\u7a7a\u95f4/Pricing_Kernel/EPK/deribit_eth/results/Q_matrix/moneyness_step_0d01/Q_matrix_45day.csv",
+  "n_q_header_dates": 1479,
+  "spot_csv": "/Users/irtg/Documents/\u540c\u6b65\u7a7a\u95f4/Pricing_Kernel/EPK/deribit_eth/data/ETH_daily/ethusd-daily.csv",
+  "n_rows": 795,
+  "annualized_days": 365.0,
+  "column_log_rv_ann": "sum of squared daily log returns over prior ttm rows \u00d7 annualized_days/ttm"
+}

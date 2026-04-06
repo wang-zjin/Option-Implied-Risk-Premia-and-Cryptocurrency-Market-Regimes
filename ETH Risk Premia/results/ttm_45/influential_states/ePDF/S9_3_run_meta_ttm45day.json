@@ -1,0 +1,17 @@
+{
+  "ttm": 45,
+  "P_NB_column": "P_NB6",
+  "shadow_neg": [
+    -0.6,
+    -0.2
+  ],
+  "shadow_pos": [
+    0.2,
+    0.6
+  ],
+  "source_EP_Decomposition": "/Users/irtg/Documents/\u540c\u6b65\u7a7a\u95f4/Pricing_Kernel/EPK/deribit_eth/results/ttm_45/EP_Decomposition",
+  "note_BP_pos": "BP_contrib_pos = BP(b)-BP(a) on [0.2,0.6] i.e. BP(0.6)-BP(0.2), matching BTC S6_2",
+  "note_BP_neg": "BP_contrib_neg = BP(-0.2)-BP(-0.6) on [-0.6,-0.2]",
+  "note_risk_price": "risk_price = (int_Q) / (int_P) on same interval (not int of Q/P)",
+  "n_regimes": 3
+}

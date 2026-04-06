@@ -1,0 +1,17 @@
+{
+  "ttm": 9,
+  "P_NB_column": "P_NB8",
+  "shadow_neg": [
+    -0.6,
+    -0.2
+  ],
+  "shadow_pos": [
+    0.2,
+    0.6
+  ],
+  "source_EP_Decomposition": "/Users/irtg/Documents/\u540c\u6b65\u7a7a\u95f4/Pricing_Kernel/EPK/deribit_eth/results/ttm_09/EP_Decomposition",
+  "note_EP_pos": "EP_contrib_pos = EP(0.6)-EP(0.2) on [0.2,0.6] (Matlab BP_sub; BTC S6_2)",
+  "note_EP_neg": "EP_contrib_neg = EP(-0.2)-EP(-0.6) on [-0.6,-0.2]",
+  "note_risk_price": "risk_price = (int_Q) / (int_P) on same interval (not int of Q/P)",
+  "n_regimes": 3
+}

@@ -1,0 +1,24 @@
+{
+  "script": "S9_2_EP_Martin17.py",
+  "ttm": 45,
+  "robust": false,
+  "q_matrix": "/Users/irtg/Documents/同步空间/Pricing_Kernel/EPK/deribit_eth/results/Q_matrix/moneyness_step_0d01/Q_matrix_45day.csv",
+  "risk_free_one_period_R_f": 1.0,
+  "integral_grid": {
+    "lo": -1.0,
+    "hi": 1.0000000000000018,
+    "step": 0.01,
+    "n": 201
+  },
+  "regime": "OA",
+  "all_q_columns": false,
+  "cluster_csv": "/Users/irtg/Documents/同步空间/Pricing_Kernel/EPK/deribit_eth/results/Clustering/moneyness_step_0d01/multivariate_clustering_9_27_45/common_dates_cluster.csv",
+  "n_rows": 795,
+  "outputs": {
+    "panel_csv": "/Users/irtg/Documents/同步空间/Pricing_Kernel/EPK/deribit_eth/results/ttm_45/EP/Martin17/EP_Martin17_panel_ttm45day.csv",
+    "martin17_ep_timeseries_csv": "/Users/irtg/Documents/同步空间/Pricing_Kernel/EPK/deribit_eth/results/ttm_45/EP/Martin17/Martin17_EP_ttm45day.csv",
+    "note_MLB": "MLB column matches BP_LB.csv MLB in BTC S9_lower_bound.py (Martin segment)",
+    "figure_png": "/Users/irtg/Documents/同步空间/Pricing_Kernel/EPK/deribit_eth/results/ttm_45/EP/Martin17/EP_Martin17_ttm45day.png"
+  },
+  "reference": "martin17.md; BTC S9_lower_bound.py Martin segment (M2/R_f)"
+}

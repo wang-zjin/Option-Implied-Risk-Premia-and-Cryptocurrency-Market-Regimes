@@ -1,0 +1,34 @@
+{
+  "stage": "S8_3",
+  "bootstrap_reference_readonly": "bootstrap.m",
+  "bootstrap_note": "With --bootstrap-reps>0: block resampling matches bootstrap_*.m; each rep re-runs MLE+LL. Point estimate always on full sample.",
+  "bootstrap_reps": 0,
+  "bootstrap_block": 27,
+  "bootstrap_seed": 42,
+  "bootstrap_ok_by_regime": {},
+  "method": "ss25",
+  "poly_orders": [
+    1,
+    2
+  ],
+  "p_report_order": 2,
+  "ttm": 27,
+  "sig_window": 21,
+  "hv_lv_via_subset": false,
+  "robust": false,
+  "generated_utc": "2026-03-25T16:11:49.389353+00:00",
+  "cluster_csv": "/Users/irtg/Documents/同步空间/Pricing_Kernel/EPK/deribit_eth/results/Clustering/moneyness_step_0d01/multivariate_clustering_9_27_45/common_dates_cluster.csv",
+  "spot_csv": "/Users/irtg/Documents/同步空间/Pricing_Kernel/EPK/deribit_eth/data/ETH_daily/ethusd-daily.csv",
+  "q_matrix": "/Users/irtg/Documents/同步空间/Pricing_Kernel/EPK/deribit_eth/results/Q_matrix/moneyness_step_0d01/Q_matrix_27day.csv",
+  "output_dir": "P_density/SS25",
+  "r_vec_definition": "1 + m (gross return), LL.m / estimate_bench.m",
+  "var_full": 0.8409937559686974,
+  "var_hv": 0.8805943464272568,
+  "var_lv": 0.6734328603207675,
+  "outputs_csv": [
+    "P_density/SS25/P_SS25_OA_ttm27day.csv",
+    "P_density/SS25/P_SS25_HV_ttm27day.csv",
+    "P_density/SS25/P_SS25_LV_ttm27day.csv"
+  ],
+  "errors": []
+}

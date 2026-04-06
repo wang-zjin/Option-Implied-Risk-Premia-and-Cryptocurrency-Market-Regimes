@@ -1,0 +1,19 @@
+{
+  "ttm": 9,
+  "use_d15": false,
+  "logrv_csv": "/Users/irtg/Documents/\u540c\u6b65\u7a7a\u95f4/Pricing_Kernel/EPK/deribit_eth/results/ttm_09/log_RV/logRV_ttm9day.csv",
+  "spot_csv": "/Users/irtg/Documents/\u540c\u6b65\u7a7a\u95f4/Pricing_Kernel/EPK/deribit_eth/data/ETH_daily/ethusd-daily.csv",
+  "recursive_ols": false,
+  "min_train": null,
+  "corsi_note": "Corsi (2009) baseline forecasts 1-day-ahead daily RV; regressors use 1/5/22-day components. Here y = forward ttm-day logRV (same formula as S8_1).",
+  "har_spec": "rv_d=ann*logret^2; rv_w=mean(rv_d,5); rv_m=mean(rv_d,22); y=(ann/ttm)*sum_{k=1}^{ttm} logret_{t+k}^2",
+  "annualized_days": 365.0,
+  "n_rows": 795,
+  "ols_beta": [
+    0.6184616493802421,
+    0.03573067152319662,
+    0.12005866833961328,
+    0.2043630909880973
+  ],
+  "ols_r2_in_sample_full_eth": 0.10018605312045004
+}

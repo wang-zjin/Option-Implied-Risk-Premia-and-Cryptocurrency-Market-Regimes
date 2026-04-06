@@ -1,0 +1,57 @@
+{
+  "ttm": 45,
+  "q_matrix": "/Users/irtg/Documents/\u540c\u6b65\u7a7a\u95f4/Pricing_Kernel/EPK/deribit_eth/results/Q_matrix/moneyness_step_0d01/Q_matrix_45day.csv",
+  "regimes": {
+    "OA": {
+      "q_p_csv": "Q_P_ePDF_OA_ttm45day.csv",
+      "bp_csv": "BP_SCA_ePDF_OA_ttm45day.csv",
+      "p_nb_columns": [
+        "P_NB6",
+        "P_NB7",
+        "P_NB8",
+        "P_NB9",
+        "P_NB10",
+        "P_NB11",
+        "P_NB12",
+        "P_NB13",
+        "P_NB14",
+        "P_NB15"
+      ]
+    },
+    "HV": {
+      "q_p_csv": "Q_P_ePDF_HV_ttm45day.csv",
+      "bp_csv": "BP_SCA_ePDF_HV_ttm45day.csv",
+      "p_nb_columns": [
+        "P_NB6",
+        "P_NB7",
+        "P_NB8",
+        "P_NB9",
+        "P_NB10",
+        "P_NB11",
+        "P_NB12",
+        "P_NB13",
+        "P_NB14",
+        "P_NB15"
+      ]
+    },
+    "LV": {
+      "q_p_csv": "Q_P_ePDF_LV_ttm45day.csv",
+      "bp_csv": "BP_SCA_ePDF_LV_ttm45day.csv",
+      "p_nb_columns": [
+        "P_NB6",
+        "P_NB7",
+        "P_NB8",
+        "P_NB9",
+        "P_NB10",
+        "P_NB11",
+        "P_NB12",
+        "P_NB13",
+        "P_NB14",
+        "P_NB15"
+      ]
+    }
+  },
+  "best_P_NB": "P_NB6",
+  "best_BP_col": "BP_NB6",
+  "best_P_NB_criterion": "max over P_NB of sum_over_regimes |BP_denom_before_norm| where BP_denom = int_{-1}^{1} (P_NB - Q) x dx"
+}
