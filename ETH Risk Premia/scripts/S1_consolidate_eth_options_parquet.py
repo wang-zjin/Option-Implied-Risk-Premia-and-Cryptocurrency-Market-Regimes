@@ -2,13 +2,13 @@
 """
 S1：Deribit ETH 期权成交分片读取 + 合并为单文件（ETH_risk_premia_plan.md §1.1 步骤 ①；仅展平+合并）
 
-本脚本做什么
+What this script does
 ------------
 - 遍历输入目录中的 ``*.parquet``，跳过文件名含 ``sample`` 的分片（可调 ``--exclude``）。
 - 将嵌套列 ``trade`` 展平为普通列，便于 CSV 存储与下游读取。
 - 保留与 ``trade`` 同级的顶层列 ``s``、``t``（若存在）。
 - 追加 ``source_file``、``datetime``、``trade_date``、``year``，便于追溯来源与按日对齐。
-- 默认输出 ``data/eth_options_processed/eth_options_fullsample.csv``；可选单一 parquet
+- Default output ``data/eth_options_processed/eth_options_fullsample.csv``；可选单一 parquet
   （``--format parquet|both`` 时会内存拼接全表，数据极大时慎用）。
 
 本脚本不做什么（请勿与「数据清洗」脚本混淆）
